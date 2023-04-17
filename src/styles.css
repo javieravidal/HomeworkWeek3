@@ -1,0 +1,108 @@
+:root {
+    --first-color: #4f4d4d;
+    --second-color: #6c63ff;
+    --third-color: #ede3fd;
+    --fourth-color: #362fbe;
+    --box-shadow: 0 1px 3px #000000;
+
+}
+
+h1 {
+    color: var(--first-color);
+    line-height: 25px;
+
+}
+
+h2 {
+    color: var(--first-color);
+    font-size: 72px;
+    line-height: 25px;
+
+}
+
+h3 {
+    color: var(--first-color);
+    font-size: 24px;
+    opacity: 0.7;
+    line-height: 25px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.button1 {
+    background-color: var(--third-color);
+    box-shadow: var(--box-shadow);
+    border: 1px solid var(--second-color);
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    color: var(--first-color);
+    border-radius: 10px;
+}
+
+.button1:active,
+.button1:hover {
+    background-color: var(--second-color);
+    color: white;
+}
+
+.button2 {
+    background-color: var(--third-color);
+    box-shadow: var(--box-shadow);
+    color: var(--first-color);
+    border: 1px solid var(--second-color);
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    color: var(--first-color);
+    border-radius: 10px;
+}
+.button2:active,
+.button2:hover {
+    background-color: var(--second-color);
+    color: white;
+}
+
+.back-homepage {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--first-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.paragraphs {
+    display: flex;
+    margin: 30px 0;
+}
+
+.paragraph1,
+.paragraph2 {
+    margin: 10px;
+    background-color: var(--third-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.contact-me {
+    text-align: center;
+}
+
+.contact-me-link {
+    font-size: 22px;
+    color: var(--second-color);
+    text-align: center;
+}
